@@ -14,7 +14,7 @@ export default function Home() {
           <div className="d-flex flex-column justify-content-center align-items-center">
             <h1 className="fw-light text-white m-0">Solearn: NFT Rewards for Quizzes</h1>
             <div className="btn-group my-5">
-              <a href="https://app.solearn.fi" className="btn btn-outline-light fix-color">Launch App</a>
+              <a href="https://twitter.com/solearn_fi" className="btn btn-outline-light fix-color">⏳ Coming Soon, drop us a hi on twitter? 🐦</a>
             </div>
               <h5 className="fw-light text-white m-0">— Built with Solana —</h5>
           </div>
