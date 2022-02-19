@@ -14,7 +14,7 @@ export default function Home() {
           <div className="d-flex flex-column justify-content-center align-items-center">
             <h1 className="fw-light text-white m-0">Solearn: NFT Rewards for Quizzes</h1>
             <div className="btn-group my-5">
-              <a href="https://app.solearn.fi" className="btn btn-outline-light">Launch App</a>
+              <a href="https://app.solearn.fi" className="btn btn-outline-light fix-color">Launch App</a>
             </div>
               <h5 className="fw-light text-white m-0">— Built with Solana —</h5>
           </div>
@@ -22,6 +22,12 @@ export default function Home() {
       </main >
 
       <style jsx>{`
+        .fix-color {
+          color: #fff;
+        }
+        .fix-color:hover {
+          color: #000;
+        }
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
